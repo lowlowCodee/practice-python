@@ -1,5 +1,8 @@
-i = 0
+thisStudents ={
+    "fName": "Laurence",
+    "lName": "Garcia",
+    "birthday": "August 7 2005",
+    "gender": "Male"
+}
 
-while i < 10:
-    print(i)
-    i+=1
+print(thisStudents["fName"])
